@@ -1,6 +1,5 @@
 package practice;
 
-import java.util.Scanner;
 
 public class Quiz {
 	
@@ -27,18 +26,10 @@ public class Quiz {
 		System.out.println(outputTotal);
 		
 		
-		Scanner input = new Scanner(System.in);
+	
 		
-		System.out.println("Input first number");
-		int firstNumber1 = input.nextInt();
-		System.out.println("First number: "+firstNumber1);
 		
-		System.out.println("Input second number");
-		int secondNumber2 = input.nextInt();
-		System.out.println("Second number: "+secondNumber2);
 		
-		System.out.println("Expected output: "+firstNumber1*secondNumber2);
-		in.close();
 		
 		
 		
