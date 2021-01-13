@@ -39,13 +39,15 @@ public class LearnConstructor {
 	
 	
 	public LearnConstructor (String stname, String staddress, int stage, double courseFee) {
+		
 		this.stName = stname;
 		this.stAddress = staddress;
 		this.stAge= stage;
 		this.courseFee= courseFee;
+	
 		
 		 
-		System.out.println("Student name is "+ this.stName+" Address is "+this.stAddress+" age is "+stAge+" course fee is "+ courseFee);
+		System.out.println("Student name is "+ this.stName+" Address is "+this.stAddress+" age is "+this.stAge+" course fee is "+ this.courseFee);
 		
 		
 		

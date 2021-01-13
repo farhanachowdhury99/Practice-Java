@@ -19,6 +19,9 @@ public class LearnScanner {
 		String lastName= input.nextLine();
 		System.out.println("Last name : "+ lastName);
 		
+		input.close();
+		
+		
 		
 	}
 
