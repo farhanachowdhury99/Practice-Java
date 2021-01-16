@@ -2,27 +2,33 @@ package constructor;
 
 public class ConstructorBasic {
 	
-	public ConstructorBasic() {
+	String name;
+	int age;
+	int score;
+	String address;
+	
+	ConstructorBasic(){
 		
 		
 	}
 	
 	
-	public ConstructorBasic(String name, int age) {
+	ConstructorBasic(String name, int age, int score, String address){
+		this.name=name;
+		this.age=age;
+		this.score=score;
+		this.address=address;
 		
-	System.out.println("Student name is "+name+" student age is "+age);
+	System.out.println("Student name is "+name+ " age is "+age+ " received score of "+score+ " and recides on "+address);
 	
-		String name1;
-		int newage;
 		
+					
 		
-			
 	}
-
+	
 	public static void main (String[] args) {
 		
-		ConstructorBasic info = new ConstructorBasic("Alisha", 25);
-		
+		ConstructorBasic basic=new ConstructorBasic("Farhana", 20, 100, "Michigan");
 		
 		
 		
@@ -30,18 +36,5 @@ public class ConstructorBasic {
 		
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 }

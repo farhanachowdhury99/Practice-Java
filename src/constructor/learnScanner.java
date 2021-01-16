@@ -2,23 +2,27 @@ package constructor;
 
 import java.util.Scanner;
 
-public class learnScanner {
+public class LearnScanner {
 	
 	public static void main (String[] args) {
 		
-		Scanner newScanner= new Scanner(System.in);
+		Scanner  learnScan = new Scanner(System.in);
 		
 		System.out.println("Enter your first name");
 		
-		String firstName= newScanner.nextLine();
+		String firstName=learnScan.nextLine();
 		
-		System.out.println("First name is "+firstName);
+		System.out.println("My name is  "+firstName);
 		
-		System.out.println("Enter Last name");
 		
-		String lastName=newScanner.nextLine();
+		System.out.println("Enter your last name");
 		
-		System.out.println("Last name is "+lastName);
+		String lastName=learnScan.nextLine();
+		
+		System.out.println("My last name is "+lastName);
+		
+		System.out.println("My full name is "+firstName+" "+ lastName);
+		
 		
 	}
 
